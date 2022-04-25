@@ -1,0 +1,7 @@
+2021-06-08T01:57:33-04:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function Yoast\WP\SEO\Builders\Indexable_Post_Builder::__construct(), 1 passed in /home/opticalfind/public_html/wp-content/plugins/wordpress-seo/src/generated/container.php on line 887 and exactly 2 expected in /home/opticalfind/public_html/wp-content/plugins/wordpress-seo/src/builders/indexable-post-builder.php:50
+Stack trace:
+#0 /home/opticalfind/public_html/wp-content/plugins/wordpress-seo/src/generated/container.php(887): Yoast\WP\SEO\Builders\Indexable_Post_Builder->__construct(Object(Yoast\WP\SEO\Helpers\Post_Helper))
+#1 /home/opticalfind/public_html/wp-content/plugins/wordpress-seo/src/generated/container.php(778): Yoast\WP\SEO\Generated\Cached_Container->getIndexablePostBuilderService()
+#2 /home/opticalfind/public_html/wp-content/plugins/wordpress-seo/src/generated/container.php(2862): Yoast\WP\SEO\Generated\Cached_Container->getIndexableBuilderService()
+#3 /home/opticalfind/public_html/wp-content/plugins/wordpress-seo/src/generated/container.php(1794) in /home/opticalfind/public_html/wp-content/plugins/wordpress-seo/src/builders/indexable-post-builder.php on line 50
+

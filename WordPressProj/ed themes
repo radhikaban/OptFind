@@ -1,0 +1,128 @@
+[33mcommit 1ffa2dc16668d827a3afdca0baf207f02299abf2[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Sarab Sodhi <sarab@kinexmedia.ca>
+Date:   Thu Sep 14 10:38:38 2017 +0530
+
+    Delete Unused themes
+
+[33mcommit ca280851aad5161742d3bc6129cef9d02c177311[m
+Merge: 7637602 af17b80
+Author: Sarab Sodhi <sarab@kinexmedia.ca>
+Date:   Thu Sep 14 10:31:59 2017 +0530
+
+    Merge branch 'master' of https://bitbucket.org/teamkinex/optical-solutions
+    
+    # Conflicts:
+    #       .htaccess
+    #       wp-content/plugins/testimonial-slider/css/skins/default/buttons/black/nav.png
+    #       wp-content/plugins/testimonial-slider/css/skins/default/buttons/black/next.png
+    #       wp-content/plugins/testimonial-slider/css/skins/default/buttons/black/prev.png
+    #       wp-content/plugins/testimonial-slider/css/skins/default/buttons/blue/nav.png
+    #       wp-content/plugins/woocommerce/assets/css/admin-rtl.css
+    #       wp-content/plugins/woocommerce/assets/css/admin.css
+    #       wp-content/plugins/woocommerce/assets/css/helper-rtl.css
+    #       wp-content/plugins/woocommerce/assets/css/helper.css
+    #       wp-content/plugins/woocommerce/assets/css/twenty-seventeen-rtl.css
+    #       wp-content/plugins/woocommerce/assets/css/twenty-seventeen.css
+    #       wp-content/plugins/woocommerce/assets/css/twenty-seventeen.scss
+    #       wp-content/plugins/woocommerce/assets/css/wc-setup-rtl.css
+    #       wp-content/plugins/woocommerce/assets/css/wc-setup.css
+    #       wp-content/plugins/woocommerce/assets/js/admin/wc-shipping-zones.js
+    #       wp-content/plugins/woocommerce/assets/js/admin/wc-shipping-zones.min.js
+    #       wp-content/plugins/woocommerce/assets/js/jquery-flot/jquery.flot.resize.min.js
+    #       wp-content/plugins/woocommerce/assets/js/jquery-flot/jquery.flot.stack.min.js
+    #       wp-content/plugins/woocommerce/i18n/languages/woocommerce.pot
+    #       wp-content/plugins/woocommerce/includes/admin/class-wc-admin-help.php
+    #       wp-content/plugins/woocommerce/includes/admin/class-wc-admin-importers.php
+    #       wp-content/plugins/woocommerce/includes/admin/class-wc-admin-post-types.php
+    #       wp-content/plugins/woocommerce/includes/admin/reports/class-wc-report-sales-by-date.php
+    #       wp-content/plugins/woocommerce/includes/admin/reports/class-wc-report-sales-by-product.php
+    #       wp-content/plugins/woocommerce/includes/admin/reports/class-wc-report-stock.php
+    #       wp-content/plugins/woocommerce/includes/api/class-wc-rest-authentication.php
+    #       wp-content/plugins/woocommerce/includes/class-wc-checkout.php
+    #       wp-content/plugins/woocommerce/includes/class-wc-geolocation.php
+    #       wp-content/plugins/woocommerce/includes/class-wc-install.php
+    #       wp-content/plugins/woocommerce/includes/class-wc-order-item-product.php
+    #       wp-content/plugins/woocommerce/includes/class-wc-post-data.php
+    #       wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php
+    #       wp-content/plugins/woocommerce/includes/cli/class-wc-cli-tool-command.php
+    #       wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-item-type-data-store.php
+    #       wp-content/plugins/woocommerce/includes/data-stores/class-wc-data-store-wp.php
+    #       wp-content/plugins/woocommerce/includes/data-stores/class-wc-product-variation-data-store-cpt.php
+    #       wp-content/plugins/woocommerce/includes/data-stores/class-wc-shipping-zone-data-store.php
+    #       wp-content/plugins/woocommerce/includes/emails/class-wc-email-customer-refunded-order.php
+    #       wp-content/plugins/woocommerce/includes/gateways/cod/class-wc-gateway-cod.php
+    #       wp-content/plugins/woocommerce/includes/import/abstract-wc-product-importer.php
+    #       wp-content/plugins/woocommerce/includes/import/class-wc-product-csv-importer.php
+    #       wp-content/plugins/woocommerce/includes/theme-support/class-wc-twenty-seventeen.php
+    #       wp-content/plugins/woocommerce/includes/wc-product-functions.php
+    #       wp-content/plugins/woocommerce/includes/wc-update-functions.php
+    #       wp-content/plugins/woocommerce/readme.txt
+    #       wp-content/plugins/woocommerce/templates/content-product.php
+    #       wp-content/plugins/woocommerce/woocommerce.php
+    #       wp-content/themes/storefront/assets/js/homepage.js
+    #       wp-content/themes/storefront/content-homepage.php
+    #       wp-content/themes/storefront/inc/admin/class-storefront-plugin-install.php
+    #       wp-content/themes/storefront/inc/nux/class-storefront-nux-admin.php
+    #       wp-content/themes/storefront/inc/nux/class-storefront-nux-guided-tour.php
+    #       wp-content/themes/storefront/inc/nux/class-storefront-nux-starter-content.php
+
+[33mcommit 7637602198411a6e3357646fcc442cfc40077c04[m
+Author: kinexm <sushil@rayanaweb.com>
+Date:   Tue Aug 1 15:14:45 2017 +0530
+
+    comit db new
+
+[33mcommit af17b801dfa974f93b0b3cda3be06425e75e7a3d[m
+Author: kinexm <sushil@rayanaweb.com>
+Date:   Tue Aug 1 15:14:45 2017 +0530
+
+    comit db new
+
+[33mcommit 5e623231907dd1fcd522ef43af357e84940ecc68[m
+Author: kinexm <sushil@rayanaweb.com>
+Date:   Tue Aug 1 15:00:30 2017 +0530
+
+    new code comit
+
+[33mcommit 43c2312fb300bac80e82d32b9b36977a7d076888[m
+Author: sushil <sushil@rayanweb.com>
+Date:   Wed Jul 19 08:33:37 2017 +0530
+
+    comit home page design
+
+[33mcommit 29cf249906c0e47c63d9db2bf2acb54ab16ad69e[m
+Merge: e1d76a5 7fa683b
+Author: sushil <sushil@rayanweb.com>
+Date:   Mon Jul 3 16:26:24 2017 +0530
+
+    Merge branch 'master' of https://github.com/kinexm/Optical-Solutions
+
+[33mcommit e1d76a5a8fff521d24824fd91f707aba25a6931b[m
+Author: sushil <sushil@rayanweb.com>
+Date:   Mon Jul 3 15:40:06 2017 +0530
+
+    database import
+
+[33mcommit 7fa683b2dce261d74336a22588fd272b39690a58[m
+Author: Kinex Media <kinexm@users.noreply.github.com>
+Date:   Mon Jul 3 14:08:43 2017 +0530
+
+    Delete New Microsoft Office Word Document.docx
+
+[33mcommit 0df4631a579efa4be67cb06a7dd72c09563ec1ae[m
+Author: sushil <sushil@rayanweb.com>
+Date:   Mon Jul 3 14:05:30 2017 +0530
+
+    comit renamed folder
+
+[33mcommit 1ee067cecc464d3f9049e8c2a7da274b97533a3a[m
+Author: sushil <sushil@rayanweb.com>
+Date:   Mon Jul 3 12:58:48 2017 +0530
+
+    comit wordpress folder
+
+[33mcommit 68b5151fbfc985146610b873cd390a2c234b46f5[m
+Author: Sarab Sodhi <abc@test.com>
+Date:   Mon Jul 3 12:20:36 2017 +0530
+
+    First Commit Optical

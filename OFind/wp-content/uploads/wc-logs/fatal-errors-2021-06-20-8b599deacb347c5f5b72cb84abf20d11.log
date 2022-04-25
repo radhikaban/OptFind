@@ -1,0 +1,16 @@
+2021-06-20T03:50:18-04:00 CRITICAL Uncaught Exception: fetch - <b>MySQL server has gone away</b><br>---<br> Query: SELECT option_value FROM ot_options WHERE option_name = 'br_load_more_products' LIMIT 1 in /home/opticalfind/public_html/wp-content/plugins/revslider/includes/framework/functions.class.php:14
+Stack trace:
+#0 /home/opticalfind/public_html/wp-content/plugins/revslider/includes/framework/db.class.php(26): RevSliderFunctions::throwError('fetch - <b>MySQ...', -1)
+#1 /home/opticalfind/public_html/wp-content/plugins/revslider/includes/framework/db.class.php(41): RevSliderDB->throwError('fetch - <b>MySQ...')
+#2 /home/opticalfind/public_html/wp-content/plugins/revslider/includes/framework/db.class.php(132): RevSliderDB->checkForErrors('fetch')
+#3 /home/opticalfind/public_html/wp-content/plugins/revslider/includes/operations.class.php(1170): RevSliderDB->fetch('ot_revslider_cs...', 'handle = '.tp-c...')
+#4 /home/opticalfind/public_html/wp-content/plugins/revslider/public/revslider-front.class.php(449): RevSliderOperations::importCaptionsCss in /home/opticalfind/public_html/wp-content/plugins/revslider/includes/framework/functions.class.php on line 14
+
+2021-06-20T03:50:18-04:00 CRITICAL Uncaught Exception: fetch - <b>MySQL server has gone away</b><br>---<br> Query: SELECT option_value FROM ot_options WHERE option_name = 'br_load_more_products' LIMIT 1 in /home/opticalfind/public_html/wp-content/plugins/revslider/includes/framework/functions.class.php:14
+Stack trace:
+#0 /home/opticalfind/public_html/wp-content/plugins/revslider/includes/framework/db.class.php(26): RevSliderFunctions::throwError('fetch - <b>MySQ...', -1)
+#1 /home/opticalfind/public_html/wp-content/plugins/revslider/includes/framework/db.class.php(41): RevSliderDB->throwError('fetch - <b>MySQ...')
+#2 /home/opticalfind/public_html/wp-content/plugins/revslider/includes/framework/db.class.php(132): RevSliderDB->checkForErrors('fetch')
+#3 /home/opticalfind/public_html/wp-content/plugins/revslider/includes/operations.class.php(1170): RevSliderDB->fetch('ot_revslider_cs...', 'handle = '.tp-c...')
+#4 /home/opticalfind/public_html/wp-content/plugins/revslider/public/revslider-front.class.php(449): RevSliderOperations::importCaptionsCss in /home/opticalfind/public_html/wp-content/plugins/revslider/includes/framework/functions.class.php on line 14
+
